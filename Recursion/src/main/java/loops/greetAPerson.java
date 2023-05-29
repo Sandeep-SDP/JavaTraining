@@ -1,4 +1,4 @@
-package Loops;
+package loops;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class greetAPerson {
         System.out.println("Enter how many times to greet the person: ");
         int k = in.nextInt();
         for (int i = 1; i <= k; i++) {
-            System.out.println("Hello Sandeep.");
+            System.out.println("Hello Sandeep");
         }
     }
 }

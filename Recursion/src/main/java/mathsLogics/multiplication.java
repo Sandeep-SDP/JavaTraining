@@ -1,13 +1,14 @@
-package MathsLogic;
+package mathsLogics;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class multiplication {
-    public static void multiply(int N, int i){
-        if (i > 10)
-        return;
+    public static void multiply(int N, int i) {
+        if (i > 10) {
+            return;
+        }
         System.out.println(N + " * " + i + " = " + N * i);
-        multiply(N,i+1);
+        multiply(N, i + 1);
     }
 
     public static void main(String[] args) {
