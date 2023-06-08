@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ae84519-f325-4026-b38d-53b35e3e9e1c" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../ATM project/JavaTraining.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
@@ -17,6 +18,9 @@
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ATM project/main/java/com/rgt/training/session2basics/simpleatm/MultipleAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ATM project/main/java/com/rgt/training/session2basics/simpleatm/MultipleAccounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> 151bfee7f9ab5e9f35008fba296f1a33757478cb
       <change beforePath="$PROJECT_DIR$/../Recursion/target/classes/Loops/greetAPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/target/classes/Loops/greetAPerson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Recursion/target/classes/Loops/greetWithName.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/target/classes/Loops/greetWithName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Recursion/target/classes/MathsLogic/multiplication.class" beforeDir="false" />
@@ -26,6 +30,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
@@ -42,6 +47,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+>>>>>>> 151bfee7f9ab5e9f35008fba296f1a33757478cb
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -54,9 +64,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+<<<<<<< HEAD
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/SandeepUtnoor/RGT-Sandeep/JavaTraining/ATM project"
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+>>>>>>> 151bfee7f9ab5e9f35008fba296f1a33757478cb
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
