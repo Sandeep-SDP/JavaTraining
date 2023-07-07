@@ -9,11 +9,11 @@ import java.util.List;
 public class RentalService implements RentalCostCalculator {
 
     private List<Vehicle> vehicles;
-    private List<Rental> rentalss;
+    private List<Rental> rentals;
 
     public RentalService() {
         this.vehicles = new ArrayList<>();
-        this.rentalss = new ArrayList<>();
+        this.rentals = new ArrayList<>();
 
     }
 
@@ -42,7 +42,7 @@ public class RentalService implements RentalCostCalculator {
     public Rental rentVehicle(Customer customer, Vehicle vehicle, LocalDateTime startTime, LocalDateTime endTime) {
         if (vehicle.isAvailable()) {
             Rental rental = new Rental(vehicle, customer, startTime, endTime);
-            rentalss.add(rental);
+            rentals.add(rental);
             vehicle.setAvailable(false);
             return rental;
         } else {
@@ -66,8 +66,8 @@ public class RentalService implements RentalCostCalculator {
 
     // Returned a Rental Vechile
     public boolean returnVehicle(Rental rental) {
-        if (rentalss.contains(rental)) {
-            rentalss.remove(rental);
+        if (rentals.contains(rental)) {
+            rentals.remove(rental);
             rental.getRentedVehicle().setAvailable(true);
             return true;
         } else {
@@ -76,7 +76,7 @@ public class RentalService implements RentalCostCalculator {
     }
 
     public Rental getRentalById(String rentalId) {
-        for (Rental rental : rentalss) {
+        for (Rental rental : rentals) {
             if (rental.getRentalId().equals(rentalId)) {
                 return rental;
             }
