@@ -1,6 +1,6 @@
 package vehicleExample;
 
-public interface VechileOperations {
+public interface VehicleOperations {
 
     boolean isAvailable();
 

@@ -1,6 +1,6 @@
 package vehicleExample;
 
-public abstract class Vehicle implements VechileOperations {
+public abstract class Vehicle implements VehicleOperations {
 
     private String make;
     private String model;
