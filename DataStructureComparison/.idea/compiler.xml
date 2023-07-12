@@ -9,8 +9,5 @@
         <module name="DataStructureComparison" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DataStructureComparison" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
